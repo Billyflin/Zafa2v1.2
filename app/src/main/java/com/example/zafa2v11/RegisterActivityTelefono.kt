@@ -3,15 +3,9 @@ package com.example.zafa2v11
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class RegisterActivityTelefono : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        initUI()
-    }
-    fun initUI(){
-        btnLogin.setOnCLickListener{
-
-        }
+        setContentView(R.layout.activity_register_telefono)
     }
 }
