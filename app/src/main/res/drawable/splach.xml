@@ -2,14 +2,16 @@
 <layer-list
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:opacity="opaque">
-<item
-    android:drawable="@color/white">
 
-</item>
+<item android:drawable="@color/white"/>
+
     <item
-        android:height="100dp"
-        android:width="120dp"
+        android:top="120dp"
+        android:end="260dp"
+        android:left="100dp"
+        android:right="100dp"
         >
-        <bitmap android:drawable="@drawable/zafa" />
-</item>
+        <bitmap android:src="@drawable/zafa" />
+    </item>
+
 </layer-list>
