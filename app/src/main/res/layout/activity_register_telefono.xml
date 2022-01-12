@@ -13,10 +13,10 @@
         android:alpha="0.35"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/zafa34" />
 
     <ImageView
@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.161"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_baseline_phone_android_24" />
 
     <TextView
@@ -43,10 +43,11 @@
         android:textColorLink="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintVertical_bias="0.224" />
+
     <EditText
         android:id="@+id/labelUser"
         android:layout_width="337dp"
@@ -62,11 +63,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="101dp"
-        android:layout_height="142dp"
-        app:srcCompat="@drawable/ic_notifications_black_24dp"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="667dp" />
+        android:id="@+id/imageButton3"
+        android:layout_width="119dp"
+        android:layout_height="103dp"
+        app:srcCompat="@drawable/mfkc_awnp_210603"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="715dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
