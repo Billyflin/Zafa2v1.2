@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
+    android:background="@drawable/fondo3"
+
     >
 
 
@@ -14,6 +15,7 @@
         android:layout_height="55dp"
         android:background="@drawable/custom_button"
         android:text="Register"
+        android:textColor="@color/white"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,6 +29,7 @@
         android:layout_height="55dp"
         android:background="@drawable/custom_button"
         android:text="Login"
+        android:textColor="@color/white"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +44,8 @@
         android:layout_height="47dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Contraseña"
+        android:hint="Contraseña"
+        android:textColorHint="@color/gris"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
@@ -55,7 +59,8 @@
         android:layout_height="47dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Email"
+        android:textColorHint="@color/gris"
+        android:hint="Email"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
