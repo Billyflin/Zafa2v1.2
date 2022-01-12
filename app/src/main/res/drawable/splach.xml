@@ -3,13 +3,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:opacity="opaque">
 
-    <item>
 
-
-        <bitmap android:src="@drawable/zafa" />
+    <item
+        android:gravity="fill_horizontal"
+        >
+        <bitmap android:src="@drawable/fondo" />
     </item>
 
-    <item android:drawable="@color/white"/>
+    <item
+        android:width="300dp"
+        android:height="240dp"
+        android:gravity="center"
+        >
+    <bitmap android:src="@drawable/zafa34" />
+    </item>
+
 
 
 </layer-list>
