@@ -18,7 +18,7 @@ class QRActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_qractivity)
 
-        imageView4.setImageBitmap(generateQRCode("hola"))
+        imageView4.setImageBitmap(generateQRCode("Pablo gei chupalo uwuwuwuuwuw es para ver como hace los textos largos"))
     }
 
 
