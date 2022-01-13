@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".RegisterActivityTelefono">
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -27,10 +29,9 @@
         android:layout_marginTop="92dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.871"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.211"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_baseline_phone_android_24" />
 
     <TextView
@@ -68,8 +69,10 @@
         android:id="@+id/imageButton3"
         android:layout_width="119dp"
         android:layout_height="103dp"
-        app:srcCompat="@drawable/mfkc_awnp_210603"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="715dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelUser"
+        app:srcCompat="@drawable/mfkc_awnp_210603" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
