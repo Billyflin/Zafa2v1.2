@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         initUI()
     }
     private fun initUI(){
-        btnRegister.setOnClickListener{registerView()}
-        btnLogin.setOnClickListener { funciona() }
+        button2.setOnClickListener{registerView()}
+        button.setOnClickListener { funciona() }
     }
 
     private fun funciona() {
