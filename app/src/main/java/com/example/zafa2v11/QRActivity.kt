@@ -9,15 +9,16 @@ import android.util.Log
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.MultiFormatWriter
 import com.google.zxing.WriterException
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_qractivity.*
 
 
-class QRActivity : AppCompatActivity() {
+class QRActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_qractivity)
 
-        imageView4.setImageBitmap(generateQRCode("Hola"))
+        imageView4.setImageBitmap(generateQRCode("hola"))
     }
 
 
