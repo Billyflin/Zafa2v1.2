@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun funciona() {
-        Toast.makeText(this,"hola",Toast.LENGTH_LONG).show()
+        startActivity( Intent(this,QRActivity::class.java))
     }
 
     private fun registerView() {

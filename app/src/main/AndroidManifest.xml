@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zafa2V11">
         <activity
+            android:name=".QRActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivityTelefono"
             android:exported="true" />
         <activity
