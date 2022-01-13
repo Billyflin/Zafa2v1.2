@@ -21,6 +21,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun registerView() {
-        startActivity( Intent(this,RegisterActivityTelefono::class.java))
+        startActivity( Intent(this,RegisterActivity::class.java))
     }
 }

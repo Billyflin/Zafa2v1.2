@@ -17,16 +17,19 @@ class QRActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_qractivity)
+        initIU()
+    }
 
-        imageView4.setImageBitmap(generateQRCode("Pablo gei chupalo uwuwuwuuwuw es para ver como hace los textos largos"))
+    private fun initIU(){
+        button3.setOnClickListener {  imageView4.setImageBitmap(generateQRCode(editTextTextPersonName.text.toString()))}
     }
 
 
 
 
     private fun generateQRCode(text: String): Bitmap {
-        val width = 500
-        val height = 500
+        val width = 600
+        val height = 600
         val bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
         val codeWriter = MultiFormatWriter()
         try {
