@@ -24,7 +24,7 @@ class PhoneConfimationActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                txt_timeleft.text = "done!"
+                txt_timeleft.text = "Aún no recives el código? prueba pedir un nuevo código!"
                 button5.visibility=View.VISIBLE
             }
         }
