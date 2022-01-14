@@ -3,9 +3,13 @@ package com.example.zafa2v11
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import com.google.android.material.bottomappbar.BottomAppBar
 import kotlinx.android.synthetic.main.activity_menu.*
+import kotlinx.android.synthetic.main.activity_menu.view.*
 
 class MenuActivity : AppCompatActivity() {
 
@@ -14,6 +18,8 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
         setSupportActionBar(BottomAppBarMenu)
+        var menuTienda= findViewById<View>(R.id.tienda_menu)
+
         BottomAppBarMenu.setOnClickListener { BottomAppBarMenu.fabAlignmentMode = BottomAppBar.FAB_ALIGNMENT_MODE_END}
     }
 
