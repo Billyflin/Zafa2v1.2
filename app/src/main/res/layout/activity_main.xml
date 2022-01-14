@@ -4,11 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_negro"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="771dp"
+        android:layout_height="1172dp"
+        app:srcCompat="@drawable/negro"
+        tools:layout_editor_absoluteX="-41dp"
+        tools:layout_editor_absoluteY="-169dp" />
     <EditText
         android:id="@+id/editTextPass"
         android:layout_width="337dp"
