@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="@drawable/fondo_negro"
     tools:context=".RegisterActivity">
 
 
@@ -28,39 +28,44 @@
         android:layout_height="49dp"
         android:autoSizeTextType="uniform"
         android:text="Ingresa tu Email"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textColorLink="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/labelUser"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.66" />
 
     <EditText
         android:id="@+id/labelUser"
         android:layout_width="337dp"
         android:layout_height="47dp"
+        android:background="@drawable/ovalo"
+        android:drawingCacheQuality="auto"
         android:ems="10"
-        android:textColor="@color/black"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/gris"
+        android:foregroundGravity="fill_horizontal"
+        android:gravity="center"
         android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/teal_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="119dp"
-        android:layout_height="103dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/circle_png64"
+        android:foreground="@drawable/felcha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/labelUser"
-        app:srcCompat="@drawable/mfkc_awnp_210603" />
+        app:layout_constraintVertical_bias="0.652" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
