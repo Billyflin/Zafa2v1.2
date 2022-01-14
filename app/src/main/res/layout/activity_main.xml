@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo3"
+    android:background="@drawable/fondo_negro"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -24,7 +24,9 @@
         app:layout_constraintHorizontal_bias="0.378"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/labelUser"
-        app:layout_constraintVertical_bias="0.043" />
+        app:layout_constraintVertical_bias="0.043"
+        android:background="@drawable/ovalo"
+        />
 
     <EditText
         android:id="@+id/labelUser"
@@ -34,6 +36,7 @@
         android:textColor="@color/black"
         android:gravity="center"
         android:hint="Email"
+        android:background="@drawable/ovalo"
         android:inputType="textPersonName"
         android:textColorHint="@color/gris"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8"
-        app:srcCompat="@drawable/safa2" />
+        app:srcCompat="@drawable/glich" />
 
     <Button
         android:id="@+id/button"
