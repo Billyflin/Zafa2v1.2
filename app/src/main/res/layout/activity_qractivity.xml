@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_negro"
+
     tools:context=".QRActivity">
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="500px"
-        android:layout_height="500px"
+        android:layout_width="226dp"
+        android:layout_height="226dp"
         android:layout_marginStart="110dp"
         android:layout_marginTop="134dp"
         android:layout_marginEnd="111dp"
@@ -42,4 +44,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        app:srcCompat="@drawable/frame_expand_icon_125277"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="72dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
