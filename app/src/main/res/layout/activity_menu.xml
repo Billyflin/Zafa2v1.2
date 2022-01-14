@@ -26,16 +26,18 @@
         app:layout_constraintStart_toStartOf="parent">
 
 
-            <com.google.android.material.bottomappbar.BottomAppBar
-                android:id="@+id/BottomAppBarMenu"
-                android:layout_gravity="bottom"
-                android:backgroundTint="@color/purple_200"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                app:navigationIcon="@drawable/ic_baseline_add_shopping_cart_24"
-                app:fabAnimationMode="scale"
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/BottomAppBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/Purple_300"
+            app:fabAlignmentMode="end"
+            app:fabAnimationMode="scale"
+            app:navigationIcon="@drawable/ic_home_black_24dp"
 
-                />
+
+            />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:layout_width="wrap_content"

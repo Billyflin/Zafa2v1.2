@@ -26,7 +26,7 @@ class PhoneConfimationActivity : AppCompatActivity() {
     private fun avant(){
             var code =etCodeConfimation.text.toString()
             if (compare(code)){
-                startActivity( Intent(this,QRActivity::class.java))
+                startActivity( Intent(this,Register2Activity::class.java))
             }
 
     }
