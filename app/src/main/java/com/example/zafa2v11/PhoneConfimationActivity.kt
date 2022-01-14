@@ -1,21 +1,42 @@
 package com.example.zafa2v11
 
-import android.icu.text.SimpleDateFormat
-import android.icu.util.Calendar
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.text.Editable
 import android.view.View
 import kotlinx.android.synthetic.main.activity_phone_confimation.*
-import java.util.*
 
 class PhoneConfimationActivity : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_phone_confimation)
+        button6.setOnClickListener { avant() }
+        initUI()
+    }
+
+    private fun initUI() {
+        if(etCodeConfimation.text.length==6){
+        }
         printDifferenceDateForHours()
     }
-    private lateinit var countDownTimer:CountDownTimer
+    private fun avant(){
+            var code =etCodeConfimation.text.toString()
+            if (compare(code)){
+                startActivity( Intent(this,QRActivity::class.java))
+            }
+
+    }
+    private fun compare(code: String): Boolean {
+        if (code == "123456") {
+            return true
+        }
+        return false
+    }
+
 
     private fun printDifferenceDateForHours() {
         val timer = object: CountDownTimer(5000, 1000) {
@@ -24,7 +45,7 @@ class PhoneConfimationActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                txt_timeleft.text = "Aún no recives el código? prueba pedir un nuevo código!"
+                txt_timeleft.text = "Aún no recives el código?\n prueba pedir un nuevo código!"
                 button5.visibility=View.VISIBLE
             }
         }
