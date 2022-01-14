@@ -16,12 +16,12 @@
         android:ems="10"
         android:gravity="center"
         android:hint="Contraseña"
-        android:textColor="@color/black"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/gris"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:textColorHint="@color/rosa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/labelUser"
         app:layout_constraintVertical_bias="0.043"
@@ -33,12 +33,12 @@
         android:layout_width="337dp"
         android:layout_height="47dp"
         android:ems="10"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:gravity="center"
         android:hint="Email"
         android:background="@drawable/ovalo"
         android:inputType="textPersonName"
-        android:textColorHint="@color/gris"
+        android:textColorHint="@color/rosa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
@@ -89,7 +89,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:layout_constraintVertical_bias="0.121" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
