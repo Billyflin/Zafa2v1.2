@@ -4,12 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_negro"
     android:backgroundTintMode="add"
     android:orientation="vertical"
     tools:context=".RegisterActivity">
 
-
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="771dp"
+        android:layout_height="1172dp"
+        app:srcCompat="@drawable/negro"
+        tools:layout_editor_absoluteX="-41dp"
+        tools:layout_editor_absoluteY="-169dp" />
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
