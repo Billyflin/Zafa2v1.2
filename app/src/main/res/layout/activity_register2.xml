@@ -21,14 +21,15 @@
         android:id="@+id/labelUser"
         android:layout_width="363dp"
         android:layout_height="103dp"
+        android:layout_marginBottom="80dp"
         android:fontFamily="@font/advent_pro"
         android:hint="Email"
         android:textColor="@color/white"
         android:textColorHint="@color/teal_200"
-        app:hintTextColor=""
+        app:hintTextColor="@color/rosa"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="390dp">
+        app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -51,14 +52,15 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/zafa34" />
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="304dp"
         android:layout_height="49dp"
         android:autoSizeTextType="uniform"
         android:fontFamily="@font/advent_pro"
-        android:text="Ingresa tu Email"
 
+        android:text="Ingresa tu Email"
         android:textColor="@color/white"
         android:textColorLink="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/labelUser"
@@ -66,20 +68,18 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
-
+        app:layout_constraintVertical_bias="0.803" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="125dp"
         android:layout_height="125dp"
+        android:layout_marginBottom="70dp"
         android:background="@drawable/circle_png64"
         android:foreground="@drawable/felcha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelUser"
-        app:layout_constraintVertical_bias="0.652" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
