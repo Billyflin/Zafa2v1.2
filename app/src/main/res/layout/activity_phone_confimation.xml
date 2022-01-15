@@ -5,55 +5,79 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PhoneConfimationActivity">
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="771dp"
+        android:layout_height="1172dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/negro" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="252dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="108dp"
-android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:layout_width="342dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:layout_marginBottom="80dp"
+        android:autoSizeTextType="uniform"
         android:editable="false"
         android:fontFamily="@font/advent_pro"
         android:text="Introduce el codigo que recivirás por whatsapp!"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/etCodeConfimation"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="70dp"
+        android:fontFamily="@font/advent_pro"
         android:text="Nuevo código"
+
+        android:textColor="@color/white"
+
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etCodeConfimation"
-        app:layout_constraintVertical_bias="0.002" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:fontFamily="@font/advent_pro"
+
         android:layout_marginTop="68dp"
         android:text="Enviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintHorizontal_bias="0.426"
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/etCodeConfimation"
-        app:layout_constraintVertical_bias="0.007" />
+        app:layout_constraintVertical_bias="0.046" />
 
     <EditText
         android:id="@+id/etCodeConfimation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="64dp"
         android:ems="10"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/advent_pro"
+
         android:inputType="numberSigned"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -66,10 +90,13 @@ android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:editable="true"
         android:fontFamily="cursive"
+        android:inputType="numberSigned"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.669"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etCodeConfimation" />
+        app:layout_constraintTop_toBottomOf="@+id/etCodeConfimation"
+        app:layout_constraintVertical_bias="0.29" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

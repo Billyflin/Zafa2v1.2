@@ -54,10 +54,10 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="554dp"
-        android:layout_height="374dp"
-        android:layout_marginStart="12dp"
+        android:layout_width="543dp"
+        android:layout_height="364dp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.412"
         app:layout_constraintStart_toStartOf="parent"
