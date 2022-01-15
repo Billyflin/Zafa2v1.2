@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21875" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable-widecg/custom2.xml" value="0.21875" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable/_2312312312.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable/custom_button.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable/ic_baseline_phone_android_24.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.21614583333333334" />
@@ -13,15 +14,22 @@
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2109375" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable/splach.xml" value="0.2109375" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable/ve.xml" value="0.21614583333333334" />
-        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
-        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_menu.xml" value="0.203125" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/drawable/zafa34.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_inventario.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_menu.xml" value="0.2563405797101449" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_phone_confimation.xml" value="0.2" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_qractivity.xml" value="0.19947916666666668" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_register2.xml" value="0.203125" />
-        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_register_telefono.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_register_telefono.xml" value="0.39895833333333336" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/fragment_blank.xml" value="0.203125" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/fragment_dashboard.xml" value="0.203125" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/fragment_home.xml" value="0.203125" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/fragment_inventario.xml" value="0.3625" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/fragment_item_list.xml" value="0.3625" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/fragment_notifications.xml" value="0.203125" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/fragment_profile.xml" value="0.203125" />
+        <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/layout/fragment_tienda.xml" value="0.3625" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/menu/bottom_app_menu.xml" value="0.203125" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2109375" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v1.2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2109375" />
@@ -29,26 +37,9 @@
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v11/app/src/main/res/layout/activity_main.xml" value="0.18854166666666666" />
         <entry key="..\:/Users/Billy/AndroidStudioProjects/Zafa2v11/app/src/main/res/layout/splash.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable-widecg/custom2.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/_2312312312.xml" value="0.2456081081081081" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/back.xml" value="0.2456081081081081" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/button.xml" value="0.2456081081081081" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/circle.xml" value="0.2456081081081081" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/cuadro.xml" value="0.2456081081081081" />
         <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/custom_button.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/ex.xml" value="0.2456081081081081" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/negro.xml" value="0.2456081081081081" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/ovalo.xml" value="0.2456081081081081" />
         <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/splach.xml" value="0.21875" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/drawable/zafa34.xml" value="0.2456081081081081" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/font/advent_pro.xml" value="0.25472972972972974" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_data.xml" value="0.23513513513513515" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_inventario.xml" value="0.23513513513513515" />
         <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_menu.xml" value="0.23513513513513515" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_phone_confimation.xml" value="0.23513513513513515" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_qractivity.xml" value="0.23513513513513515" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_register2.xml" value="0.21" />
-        <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/layout/activity_register_telefono.xml" value="0.25" />
         <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/pablo/StudioProjects/Zafa2v1.2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2635416666666667" />
       </map>
