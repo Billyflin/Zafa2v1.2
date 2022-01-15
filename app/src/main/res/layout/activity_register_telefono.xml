@@ -28,7 +28,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/zafa34" />
 
     <ImageView
@@ -36,12 +36,12 @@
         android:layout_width="68dp"
         android:layout_height="88dp"
         android:fillColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637"
+        app:layout_constraintVertical_bias="0.662"
         app:srcCompat="@drawable/touchscreen_smartphone_icon_18_ffffff_169" />
 
     <TextView
@@ -55,20 +55,20 @@
         android:textColorLink="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/labelUser"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.752" />
+        app:layout_constraintVertical_bias="0.648" />
 
     <EditText
         android:id="@+id/labelUser"
         android:layout_width="337dp"
         android:layout_height="47dp"
-        android:background="@drawable/cuadrado"
+        android:foreground="@drawable/cuadrado"
+        android:fontFamily="@font/advent_pro"
         android:backgroundTintMode="multiply"
         android:drawableLeft="@drawable/ic_baseline_phone_android_24"
         android:ems="10"
-        android:freezesText="false"
-        android:gravity="center"
         android:hint="Número"
         android:inputType="number"
         android:textColor="@color/white"
@@ -83,10 +83,8 @@
         android:id="@+id/imageButton3"
         android:layout_width="125dp"
         android:layout_height="125dp"
-        android:background="@drawable/circle_png60"
-        android:backgroundTint="@color/plomo"
+        android:background="@drawable/circle_png68"
         android:foreground="@drawable/felcha"
-        android:foregroundTint="@color/plomo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -17,9 +17,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/negro" />
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/labelUser"
+        android:layout_width="363dp"
+        android:layout_height="103dp"
+        android:fontFamily="@font/advent_pro"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/teal_200"
+        app:hintTextColor=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="390dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
         android:alpha="0.2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +56,9 @@
         android:layout_width="304dp"
         android:layout_height="49dp"
         android:autoSizeTextType="uniform"
+        android:fontFamily="@font/advent_pro"
         android:text="Ingresa tu Email"
+
         android:textColor="@color/white"
         android:textColorLink="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/labelUser"
@@ -45,23 +68,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.66" />
 
-    <EditText
-        android:id="@+id/labelUser"
-        android:layout_width="337dp"
-        android:layout_height="47dp"
-        android:background="@drawable/ovalo"
-        android:drawingCacheQuality="auto"
-        android:ems="10"
-        android:foregroundGravity="fill_horizontal"
-        android:gravity="center"
-        android:hint="Email"
-        android:inputType="textPersonName"
-        android:textColor="@color/white"
-        android:textColorHint="@color/teal_200"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -74,8 +80,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/labelUser"
         app:layout_constraintVertical_bias="0.652" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
