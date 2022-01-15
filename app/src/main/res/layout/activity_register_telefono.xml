@@ -12,9 +12,12 @@
         android:id="@+id/imageView5"
         android:layout_width="771dp"
         android:layout_height="1172dp"
-        app:srcCompat="@drawable/negro"
-        tools:layout_editor_absoluteX="-41dp"
-        tools:layout_editor_absoluteY="-169dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/negro" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -43,11 +46,11 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="304dp"
-
-        android:layout_height="49dp"
+        android:layout_width="351dp"
+        android:layout_height="75dp"
         android:autoSizeTextType="uniform"
-        android:text="Ingresa tu número de teléfono"
+        android:fontFamily="@font/advent_pro"
+        android:text="¡Hola! Para brindarte un mejor servicio ingresa tu número de teléfono"
         android:textColor="@color/white"
         android:textColorLink="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/labelUser"
@@ -61,9 +64,7 @@
         android:id="@+id/labelUser"
         android:layout_width="337dp"
         android:layout_height="47dp"
-        android:background="@drawable/fondostexto"
-        android:backgroundTint="#716B6B"
-
+        android:background="@drawable/cuadrado"
         android:backgroundTintMode="multiply"
         android:drawableLeft="@drawable/ic_baseline_phone_android_24"
         android:ems="10"
