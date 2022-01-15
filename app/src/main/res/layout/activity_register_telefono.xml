@@ -17,6 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/negro" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -46,9 +47,9 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="351dp"
-
         android:layout_height="75dp"
         android:autoSizeTextType="uniform"
+        android:fontFamily="@font/advent_pro"
         android:text="¡Hola! Para brindarte un mejor servicio ingresa tu número de teléfono"
         android:textColor="@color/white"
         android:textColorLink="@color/black"
@@ -63,8 +64,7 @@
         android:id="@+id/labelUser"
         android:layout_width="337dp"
         android:layout_height="47dp"
-        android:background="@drawable/negro"
-        android:backgroundTint="#716B6B"
+        android:background="@drawable/cuadrado"
         android:backgroundTintMode="multiply"
         android:drawableLeft="@drawable/ic_baseline_phone_android_24"
         android:ems="10"
