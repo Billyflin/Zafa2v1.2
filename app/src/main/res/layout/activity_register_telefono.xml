@@ -36,12 +36,12 @@
         android:layout_width="68dp"
         android:layout_height="88dp"
         android:fillColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.662"
+        app:layout_constraintVertical_bias="0.914"
         app:srcCompat="@drawable/touchscreen_smartphone_icon_18_ffffff_169" />
 
     <TextView
@@ -55,41 +55,47 @@
         android:textColorLink="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/labelUser"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.648" />
+        app:layout_constraintVertical_bias="0.762" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/labelUser"
-        android:layout_width="337dp"
-        android:layout_height="47dp"
-        android:foreground="@drawable/cuadrado"
+        android:layout_width="363dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="70dp"
         android:fontFamily="@font/advent_pro"
-        android:backgroundTintMode="multiply"
-        android:drawableLeft="@drawable/ic_baseline_phone_android_24"
-        android:ems="10"
-        android:hint="Número"
-        android:inputType="number"
+        android:hint="Numero"
         android:textColor="@color/white"
         android:textColorHint="@color/teal_200"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="9"
+        app:hintTextColor="@color/rosa"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="125dp"
         android:layout_height="125dp"
+        android:layout_marginBottom="90dp"
         android:background="@drawable/circle_png68"
         android:foreground="@drawable/felcha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelUser"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
