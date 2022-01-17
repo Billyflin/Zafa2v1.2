@@ -5,13 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QRActivity">
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="771dp"
         android:layout_height="1172dp"
-        app:srcCompat="@drawable/negro"
-        tools:layout_editor_absoluteX="-41dp"
-        tools:layout_editor_absoluteY="-169dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/negro" />
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="226dp"
@@ -64,5 +67,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cuadro_no_cuadro" />
+        app:srcCompat="@drawable/frame_expand_icon_125277" />
 </androidx.constraintlayout.widget.ConstraintLayout>

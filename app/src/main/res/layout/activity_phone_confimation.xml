@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PhoneConfimationActivity">
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="771dp"
@@ -20,11 +21,11 @@
         android:layout_width="342dp"
         android:layout_height="72dp"
         android:layout_marginTop="170dp"
-        android:gravity="center"
         android:layout_marginBottom="80dp"
         android:autoSizeTextType="uniform"
         android:editable="false"
         android:fontFamily="@font/advent_pro"
+        android:gravity="center"
         android:text="Introduce el codigo que recivirás por whatsapp!"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
@@ -35,6 +36,37 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
+    <EditText
+        android:id="@+id/etCodeConfimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:fontFamily="@font/advent_pro"
+        android:inputType="numberSigned"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/txt_timeleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:inputType="numberSigned"
+        android:fontFamily="@font/advent_pro"
+
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.669"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCodeConfimation"
+        app:layout_constraintVertical_bias="0.29" />
+
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
@@ -43,6 +75,7 @@
         android:layout_marginTop="70dp"
         android:fontFamily="@font/advent_pro"
         android:text="Nuevo código"
+        android:foreground="@drawable/ovalo2"
 
         android:textColor="@color/white"
 
@@ -57,9 +90,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:fontFamily="@font/advent_pro"
-
         android:layout_marginTop="68dp"
+        android:fontFamily="@font/advent_pro"
+        android:foreground="@drawable/ovalo"
         android:text="Enviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,35 +100,5 @@
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/etCodeConfimation"
         app:layout_constraintVertical_bias="0.046" />
-
-    <EditText
-        android:id="@+id/etCodeConfimation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:ems="10"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:fontFamily="@font/advent_pro"
-        android:inputType="numberSigned"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/txt_timeleft"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:editable="true"
-        android:fontFamily="cursive"
-        android:inputType="numberSigned"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.669"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etCodeConfimation"
-        app:layout_constraintVertical_bias="0.29" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

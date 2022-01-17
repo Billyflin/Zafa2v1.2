@@ -75,10 +75,7 @@
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginBottom="70dp"
-        android:background="@drawable/circle_png60"
-        android:backgroundTint="@color/purple_200"
-        android:foreground="@drawable/felcha"
-        android:foregroundTint="@color/purple_200"
+        android:background="@drawable/_7453"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

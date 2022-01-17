@@ -44,6 +44,7 @@
         app:layout_constraintVertical_bias="0.914"
         app:srcCompat="@drawable/touchscreen_smartphone_icon_18_ffffff_169" />
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="351dp"
@@ -57,13 +58,13 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintVertical_bias="0.674" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/labelUser"
-        android:layout_width="363dp"
-        android:layout_height="103dp"
-        android:layout_marginBottom="70dp"
+        android:layout_width="300dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="60dp"
         android:fontFamily="@font/advent_pro"
         android:hint="Numero"
         android:textColor="@color/white"
@@ -71,35 +72,33 @@
         app:boxCornerRadiusTopEnd="10dp"
         app:boxCornerRadiusTopStart="10dp"
         app:counterEnabled="true"
-        app:counterMaxLength="9"
+        app:counterMaxLength="12"
+        app:helperText="+56 9 8765 4321"
+        app:helperTextTextColor="@color/plomo"
         app:hintTextColor="@color/rosa"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.585"
+
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLength="9"/>
+            android:maxLength="12" />
 
 
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginBottom="90dp"
-        android:background="@drawable/circle_png60"
-        android:backgroundTint="@color/purple_200"
-        android:foreground="@drawable/felcha"
-        android:foregroundTint="@color/purple_200"
+        android:background="@drawable/_7453"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
