@@ -71,7 +71,7 @@
         app:boxCornerRadiusTopEnd="10dp"
         app:boxCornerRadiusTopStart="10dp"
         app:counterEnabled="true"
-        app:counterMaxLength="10"
+        app:counterMaxLength="9"
         app:hintTextColor="@color/rosa"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,7 +80,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:maxLength="9"/>
 
 
     </com.google.android.material.textfield.TextInputLayout>

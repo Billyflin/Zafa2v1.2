@@ -77,7 +77,6 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:fontFamily="@font/advent_pro"
-
         android:inputType="numberSigned"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

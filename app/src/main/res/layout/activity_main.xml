@@ -23,6 +23,7 @@
         android:ems="10"
         android:gravity="center"
         android:hint="Contraseña"
+        android:drawablePadding="12dp"
         android:textColor="@color/white"
         android:inputType="textPassword"
         android:textColorHint="@color/rosa"
