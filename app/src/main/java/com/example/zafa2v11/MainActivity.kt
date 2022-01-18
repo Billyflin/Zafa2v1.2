@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun funciona() {
-        startActivity( Intent(this,MenuActivity::class.java))
+        startActivity( Intent(this,EventSelectorActivity::class.java))
     }
 
     private fun registerView() {
