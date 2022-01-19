@@ -17,7 +17,7 @@ private const val ARG_PARAM2 = "param2"
  * Use the [mainFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class mainFragment : Fragment() {
+class MainFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
