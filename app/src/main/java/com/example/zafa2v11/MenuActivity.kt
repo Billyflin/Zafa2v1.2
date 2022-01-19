@@ -8,9 +8,14 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.zafa2v11.adapter.ItemAdapter
+import com.example.zafa2v11.data.ItemProvider
 import com.example.zafa2v11.fragments.InventarioFragment
 import com.example.zafa2v11.fragments.ProfileFragment
 import com.example.zafa2v11.fragments.TiendaFragment
+import com.example.zafa2v11.fragments.mainFragment
 import com.google.android.material.bottomappbar.BottomAppBar
 import com.google.zxing.integration.android.IntentIntegrator
 import kotlinx.android.synthetic.main.activity_menu.*
@@ -31,8 +36,8 @@ class MenuActivity : AppCompatActivity() {
     }
 
     private fun onMenuPressed() {
+        replaceFragment(mainFragment)
         centerFab()
-
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -60,6 +65,7 @@ class MenuActivity : AppCompatActivity() {
         endFab()
         replaceFragment(tiendaFragment)
     }
+
 
     private fun perfil_menu() {
         endFab()
