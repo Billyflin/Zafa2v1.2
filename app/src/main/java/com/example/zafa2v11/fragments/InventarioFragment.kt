@@ -1,11 +1,14 @@
 package com.example.zafa2v11.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.zafa2v11.QRActivity
 import com.example.zafa2v11.R
+import kotlinx.android.synthetic.main.fragment_inventario.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -36,6 +39,13 @@ class InventarioFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_inventario, container, false)
+    }
+    override fun onViewCreated(itemView: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(itemView, savedInstanceState)
+        buttonPruebaQr.setOnClickListener { requireActivity().run {
+            startActivity(Intent(this, QRActivity::class.java))
+            finish() // If activity no more needed in back stack
+        } }
     }
 
     companion object {

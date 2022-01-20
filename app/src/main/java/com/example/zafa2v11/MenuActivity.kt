@@ -112,6 +112,7 @@ class MenuActivity : AppCompatActivity() {
             integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE)
             integrator.setPrompt("")
             integrator.setBeepEnabled(true)
+            integrator.setBeepEnabled(false)
             integrator.initiateScan()
         }
 
