@@ -8,14 +8,16 @@ import com.bumptech.glide.Glide
 import com.example.zafa2v11.R
 import com.example.zafa2v11.data.EventItem
 
-class EventViewHolder(view: View): RecyclerView.ViewHolder(view) {
 
-    val item_name=view.findViewById<TextView>(R.id.item_name)
-    val item_photo=view.findViewById<ImageView>(R.id.item_photo)
+class EventViewHolder(view: View):RecyclerView.ViewHolder(view) {
+
+    val event_name=view.findViewById<TextView>(R.id.tvEventName)
+//    val event_producer=view.findViewById<TextView>(R.id.item_price)
+    val event_photo=view.findViewById<ImageView>(R.id.ivEvent_Photo)
 
     fun render(item: EventItem){
-        item_name.text=item.nombreProductora
-        Glide.with(item_photo.context).load(item.imagenProductora).into(item_photo)
+        event_name.text=item.nombreProductora
+//        event_producer.text=item.imagenProductora
+        Glide.with(event_photo.context).load(item.imagenProductora).into(event_photo)
     }
-
 }
