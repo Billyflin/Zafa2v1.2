@@ -12,13 +12,11 @@ class EventSelectorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_event_selector)
-        initRecyclerView()
+
     }
 
     private fun initRecyclerView() {
-        val recyclerView= findViewById<RecyclerView>(R.id.rvPrueba)
-        recyclerView.layoutManager= GridLayoutManager(this,2)
-        recyclerView.adapter=ItemAdapter(ItemProvider.itemList)
+
     }
 
 }
