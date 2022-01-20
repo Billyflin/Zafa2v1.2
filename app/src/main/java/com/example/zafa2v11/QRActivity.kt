@@ -1,22 +1,13 @@
 package com.example.zafa2v11
 
-import android.content.Intent
 import android.content.res.Resources
-import android.graphics.Bitmap
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Matrix
-import androidx.appcompat.app.AppCompatActivity
+import android.graphics.BitmapFactory
 import android.os.Bundle
-import com.google.zxing.BarcodeFormat
-import com.google.zxing.EncodeHintType
-import com.google.zxing.WriterException
-import com.google.zxing.qrcode.QRCodeWriter
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.graphics.drawable.toBitmap
+import com.example.zafa2v11.qr.qrGen
 import kotlinx.android.synthetic.main.activity_qractivity.*
 import java.util.*
-
-import android.graphics.BitmapFactory
-import androidx.core.graphics.drawable.toBitmap
 
 
 class QRActivity : AppCompatActivity() {
@@ -29,11 +20,9 @@ class QRActivity : AppCompatActivity() {
     }
 
     private fun initIU() {
-        button3.setOnClickListener {
-            imageView4.setImageDrawable(getDrawable(R.drawable.glich))
-            val BitLogo = imageView4.drawable.toBitmap()
-            val bitLogo = BitmapFactory.decodeResource(resources,R.drawable.fondo_negro);
-            imageView7.setImageBitmap(
+            imageView7.setImageDrawable(getDrawable(R.drawable.glich))
+            val uwu =qrGen()
+            imageView4.setImageBitmap(
 //                createQRGradientImage(
 //                    "Hola",
 //                    350.dpToPx(),
@@ -43,9 +32,13 @@ class QRActivity : AppCompatActivity() {
 //                        it1
 //                    )
 //                }
-            bitLogo
+                    uwu.createQRGradientImage("Hola",350.dpToPx(),
+                    350.dpToPx())
             )
-        }
+
+    }
+    fun Int.dpToPx(): Int {
+        return (this * Resources.getSystem().displayMetrics.density).toInt()
     }
 
 }

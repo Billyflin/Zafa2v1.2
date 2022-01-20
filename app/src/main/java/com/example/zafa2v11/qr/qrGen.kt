@@ -1,26 +1,31 @@
 package com.example.zafa2v11.qr
 
 import android.content.res.Resources
-import android.graphics.*
-import com.example.zafa2v11.R
+import android.graphics.Bitmap
+import android.graphics.Canvas
+import android.graphics.Color
+import android.graphics.Matrix
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.EncodeHintType
 import com.google.zxing.WriterException
 import com.google.zxing.qrcode.QRCodeWriter
 import java.util.*
 
-class qrGen(val s:String) {
+class qrGen {
+
 
     fun Int.dpToPx(): Int {
         return (this * Resources.getSystem().displayMetrics.density).toInt()
     }
 
 
-    fun createQRGradientImage(s: String?, width: Int, height: Int): Bitmap? {
+    fun createQRGradientImage(s:String?,width: Int, height: Int): Bitmap? {
         try {
             // Juzga la legalidad de la URL
-            if (s == null || "" == s || s.length < 1) {
-                return null
+            if (s != null) {
+                if ("" == s || s.isEmpty()) {
+                    return null
+                }
             }
             val hints = Hashtable<EncodeHintType, Any>()
             hints.put(EncodeHintType.CHARACTER_SET, "utf-8")
@@ -79,29 +84,29 @@ class qrGen(val s:String) {
         return combined
     }
 
-    private fun addLogo(bitmapCode: Bitmap): Bitmap? {
-        val bitmapLogo = BitmapFactory.decodeResource(resources, R.drawable.dummy)
-        val qrCodeWidth = bitmapCode.width
-        val qrCodeHeight = bitmapCode.height
-        val logoWidth = bitmapLogo.width
-        val logoHeight = bitmapLogo.height
-        val blankBitmap = Bitmap.createBitmap(qrCodeWidth, qrCodeHeight, Bitmap.Config.ARGB_8888)
-        val canvas = Canvas(blankBitmap)
-        canvas.drawBitmap(bitmapCode, 0f, 0f, null)
-        canvas.save()
-        var scaleSize = 1.0f
-        while (logoWidth / scaleSize > qrCodeWidth / 5 || logoHeight / scaleSize > qrCodeHeight / 5) {
-            scaleSize *= 2f
-        }
-        val sx = 1.0f / scaleSize
-        canvas.scale(sx, sx, (qrCodeWidth / 2).toFloat(), (qrCodeHeight / 2).toFloat())
-        canvas.drawBitmap(
-            bitmapLogo,
-            ((qrCodeWidth - logoWidth) / 2).toFloat(),
-            ((qrCodeHeight - logoHeight) / 2).toFloat(),
-            null
-        )
-        canvas.restore()
-        return blankBitmap
-    }
+//    private fun addLogo(bitmapCode: Bitmap): Bitmap? {
+//        val bitmapLogo = BitmapFactory.decodeResource(getResources(), R.drawable.dummy)
+//        val qrCodeWidth = bitmapCode.width
+//        val qrCodeHeight = bitmapCode.height
+//        val logoWidth = bitmapLogo.width
+//        val logoHeight = bitmapLogo.height
+//        val blankBitmap = Bitmap.createBitmap(qrCodeWidth, qrCodeHeight, Bitmap.Config.ARGB_8888)
+//        val canvas = Canvas(blankBitmap)
+//        canvas.drawBitmap(bitmapCode, 0f, 0f, null)
+//        canvas.save()
+//        var scaleSize = 1.0f
+//        while (logoWidth / scaleSize > qrCodeWidth / 5 || logoHeight / scaleSize > qrCodeHeight / 5) {
+//            scaleSize *= 2f
+//        }
+//        val sx = 1.0f / scaleSize
+//        canvas.scale(sx, sx, (qrCodeWidth / 2).toFloat(), (qrCodeHeight / 2).toFloat())
+//        canvas.drawBitmap(
+//            bitmapLogo,
+//            ((qrCodeWidth - logoWidth) / 2).toFloat(),
+//            ((qrCodeHeight - logoHeight) / 2).toFloat(),
+//            null
+//        )
+//        canvas.restore()
+//        return blankBitmap
+//    }
 }

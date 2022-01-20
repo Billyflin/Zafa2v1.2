@@ -15,8 +15,4 @@ class EventSelectorActivity : AppCompatActivity() {
 
     }
 
-    private fun initRecyclerView() {
-
-    }
-
 }
