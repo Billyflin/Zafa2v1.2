@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initUI()
-        val ttb = AnimationUtils.loadAnimation(this, R.anim.ttb);
+        val ttb2 = AnimationUtils.loadAnimation(this, R.anim.ttb2);
 
         val imageView2 = findViewById(R.id.imageView2) as ImageView
        // val button2 = findViewById(R.id.button) as Button
-        imageView2.startAnimation(ttb)
+        imageView2.startAnimation(ttb2)
 
     }
     private fun initUI(){

@@ -19,7 +19,7 @@ class EventSelectorActivity : AppCompatActivity() {
         rvEventSelector.apply {
             // set a LinearLayoutManager to handle Android
             // RecyclerView behavior
-            layoutManager = GridLayoutManager(Activity(),2)
+            layoutManager = GridLayoutManager(Activity(),1)
             // set the custom adapter to the RecyclerView
             adapter = EventAdapter(EventProvider.listaEventos)
         }
