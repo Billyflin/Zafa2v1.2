@@ -63,7 +63,7 @@
         app:layout_constraintHorizontal_bias="0.412"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/unknown" />
+        app:srcCompat="@drawable/glich" />
 
     <Button
         android:id="@+id/button"

@@ -3,6 +3,9 @@ package com.example.zafa2v11
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.animation.AnimationUtils
+import android.widget.Button
+import android.widget.ImageView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -10,6 +13,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initUI()
+        val ttb = AnimationUtils.loadAnimation(this, R.anim.ttb);
+
+        val imageView2 = findViewById(R.id.imageView2) as ImageView
+       // val button2 = findViewById(R.id.button) as Button
+        imageView2.startAnimation(ttb)
+
     }
     private fun initUI(){
         button2.setOnClickListener{registerView()}
