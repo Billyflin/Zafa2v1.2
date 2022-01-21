@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="160dp"
+    android:layout_height="140dp"
     android:layout_gravity="center"
     android:layout_marginLeft="8dp"
     android:layout_marginTop="8dp"
@@ -14,7 +14,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/blanco">
+        android:background="@drawable/fondo_horizontal">
 
 
         <ImageView
@@ -29,32 +29,32 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/tvProductoraNombre"
-            android:layout_width="64dp"
-            android:layout_height="21dp"
-            android:layout_marginBottom="16dp"
-            android:fontFamily="@font/advent_pro_semibold"
-            android:textAlignment="textEnd"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/tvEventName"
-            app:layout_constraintHorizontal_bias="0.96"
-            app:layout_constraintStart_toStartOf="parent" />
+<!--        <TextView-->
+<!--            android:id="@+id/tvProductoraNombre"-->
+<!--            android:layout_width="64dp"-->
+<!--            android:layout_height="21dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:fontFamily="@font/advent_pro_semibold"-->
+<!--            android:textAlignment="textEnd"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/tvEventName"-->
+<!--            app:layout_constraintHorizontal_bias="0.96"-->
+<!--            app:layout_constraintStart_toStartOf="parent" />-->
 
-        <TextView
-            android:id="@+id/tvEventName"
-            android:layout_width="139dp"
-            android:layout_height="70dp"
-            android:fontFamily="@font/advent_pro_semibold"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            app:layout_constraintBottom_toTopOf="@+id/tvProductoraNombre"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.345" />
+<!--        <TextView-->
+<!--            android:id="@+id/tvEventName"-->
+<!--            android:layout_width="139dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:fontFamily="@font/advent_pro_semibold"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30sp"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/tvProductoraNombre"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.345" />-->
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
