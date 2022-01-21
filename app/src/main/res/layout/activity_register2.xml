@@ -18,7 +18,6 @@
         app:srcCompat="@drawable/negro" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/labelUser"
         android:layout_width="363dp"
         android:layout_height="103dp"
         android:layout_marginBottom="80dp"
@@ -32,6 +31,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/labelUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -55,12 +55,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="304dp"
-        android:layout_height="49dp"
+        android:layout_width="325dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="200dp"
         android:autoSizeTextType="uniform"
         android:fontFamily="@font/advent_pro"
-
-        android:text="Ingresa tu Email"
+        android:text="Ingresa tu Email para luego poder tener un metodo de iniciar sesión "
         android:textColor="@color/white"
         android:textColorLink="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/labelUser"
@@ -68,7 +68,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.803" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/imageButton3"
