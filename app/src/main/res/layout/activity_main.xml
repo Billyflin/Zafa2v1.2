@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="771dp"
@@ -16,68 +17,72 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.501"
-        app:srcCompat="@drawable/negro" />
-
-    <EditText
-        android:id="@+id/editTextPass"
-        android:layout_width="337dp"
-        android:layout_height="47dp"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="Contraseña"
-        android:drawablePadding="12dp"
-        android:textColor="@color/white"
-        android:inputType="textPassword"
-        android:textColorHint="@color/rosa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelUser"
-        app:layout_constraintVertical_bias="0.043"
-        android:background="@drawable/ovalo"
-        />
+        app:srcCompat="@drawable/fondo_mas_oscuro" />
 
     <EditText
         android:id="@+id/labelUser"
         android:layout_width="337dp"
         android:layout_height="47dp"
+        android:background="@drawable/button"
         android:ems="10"
-        android:textColor="@color/white"
+        android:textSize="21sp"
         android:gravity="center"
         android:hint="Email"
-        android:background="@drawable/ovalo"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
         android:textColorHint="@color/rosa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="337dp"
+        android:layout_height="47dp"
+        android:background="@drawable/button"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:textSize="21sp"
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/rosa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelUser"
+        app:layout_constraintVertical_bias="0.044" />
+
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="543dp"
-        android:layout_height="364dp"
+        android:layout_width="359dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="15dp"
+        android:focusableInTouchMode="false"
+        android:forceHasOverlappingRendering="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.412"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/glich" />
+        app:srcCompat="@drawable/chile_pride_on" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="329dp"
         android:layout_height="58dp"
-        android:layout_marginTop="100dp"
-        android:backgroundTint="@color/oa"
-        android:text="Login"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="@color/azul"
+        android:shadowColor="#000000"
+
+        android:shadowDx="12"
+        android:shadowRadius="40"
+        android:text="Entra"
         android:textColor="@color/white"
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPass" />
 
@@ -85,15 +90,16 @@
         android:id="@+id/button2"
         android:layout_width="329dp"
         android:layout_height="58dp"
-        android:backgroundTint="@color/oa"
-        android:text="Register"
+        android:backgroundTint="@color/azul"
+        android:text="Sumate!"
         android:textColor="@color/white"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.121" />
+        app:layout_constraintVertical_bias="0.085" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

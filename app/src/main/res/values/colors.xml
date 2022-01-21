@@ -7,11 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="nigger">#BF3C3C3C</color>
+    <color name="nigger">#2d3238</color>
     <color name="gris">#425353</color>
     <color name="oa">#2D3238</color>
     <color name="rosa">#D800FF</color>
     <color name="Purple_300">#9C27B0</color>
     <color name="plomo">#AEAEAE</color>
+    <color name="azul">#042985</color>
+
 
 </resources>
