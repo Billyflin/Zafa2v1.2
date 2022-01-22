@@ -7,6 +7,7 @@ import android.view.animation.AnimationUtils
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.zafa2v11.fragments.NameActivity
 import com.google.android.material.textfield.TextInputEditText
 import kotlinx.android.synthetic.main.activity_register_telefono.*
 
@@ -36,7 +37,7 @@ class Register2Activity : AppCompatActivity() {
     }
     private fun buttonConditional(){
 //        if (labelUser.text.isNotEmpty()){
-        imageButton3.setOnClickListener { startActivity( Intent(this,QRActivity::class.java))  }
+        imageButton3.setOnClickListener { startActivity( Intent(this, NameActivity::class.java))  }
 
 //        }
     }
