@@ -10,14 +10,14 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="771dp"
-        android:layout_height="1172dp"
+        android:layout_width="443dp"
+        android:layout_height="804dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.501"
-        app:srcCompat="@drawable/fondo_mas_oscuro" />
+        app:srcCompat="@drawable/hd_wallpaper_rainbow_lgbt_lgbtq_subtle_subtle_gay" />
 
     <EditText
         android:id="@+id/labelUser"

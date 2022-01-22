@@ -8,13 +8,14 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="771dp"
-        android:layout_height="1172dp"
+        android:layout_width="443dp"
+        android:layout_height="804dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/negro" />
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/hd_wallpaper_rainbow_lgbt_lgbtq_subtle_subtle_gay" />
 
     <TextView
         android:id="@+id/textView2"
@@ -27,7 +28,7 @@
         android:fontFamily="@font/advent_pro"
         android:gravity="center"
         android:text="Introduce el codigo que recivirás por whatsapp!"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/etCodeConfimation"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +76,7 @@
         android:layout_marginTop="70dp"
         android:fontFamily="@font/advent_pro"
         android:text="Nuevo código"
-        android:foreground="@drawable/ovalo2"
+        app:cornerRadius="25dp"
 
         android:textColor="@color/white"
 
@@ -90,9 +91,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        app:cornerRadius="25dp"
         android:layout_marginTop="68dp"
         android:fontFamily="@font/advent_pro"
-        android:foreground="@drawable/ovalo"
         android:text="Enviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

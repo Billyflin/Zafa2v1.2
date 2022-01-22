@@ -10,26 +10,16 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="771dp"
-        android:layout_height="1172dp"
+        android:layout_width="443dp"
+        android:layout_height="804dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/negro" />
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/hd_wallpaper_rainbow_lgbt_lgbtq_subtle_subtle_gay" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:alpha="0.2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/zafa34" />
+
 
     <ImageView
         android:id="@+id/imageView6"
@@ -47,39 +37,41 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="351dp"
-        android:layout_height="75dp"
-        android:autoSizeTextType="uniform"
+        android:layout_width="367dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="28dp"
         android:fontFamily="@font/advent_pro"
         android:text="¡Hola! Para brindarte un mejor servicio ingresa tu número de teléfono"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorLink="@color/black"
+        android:textSize="28dp"
         app:layout_constraintBottom_toTopOf="@+id/labelUser"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.674" />
+        app:layout_constraintVertical_bias="0.752" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/labelUser"
         android:layout_width="300dp"
         android:layout_height="96dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginBottom="60dp"
         android:fontFamily="@font/advent_pro"
         android:hint="Numero"
         android:textColor="@color/white"
-        android:textColorHint="@color/teal_200"
+        android:textColorHint="@color/black"
         app:boxCornerRadiusTopEnd="10dp"
         app:boxCornerRadiusTopStart="10dp"
         app:counterEnabled="true"
         app:counterMaxLength="12"
         app:helperText="+56 9 8765 4321"
-        app:helperTextTextColor="@color/plomo"
+        app:helperTextTextColor="@color/azul"
         app:hintTextColor="@color/rosa"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.585"
-
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -93,8 +85,8 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="106dp"
+        android:layout_height="106dp"
         android:layout_marginBottom="90dp"
         android:background="@drawable/_7453"
         app:layout_constraintBottom_toBottomOf="parent"
