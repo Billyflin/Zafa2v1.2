@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.zafa2v11.R
 import com.example.zafa2v11.data.EventItem
 
-class EventAdapter(private val eventList:List<EventItem>) : RecyclerView.Adapter<EventViewHolder>() {
+class EventAdapter(private val eventList:List<EventItem>, private val onClickListener:(EventItem) -> Unit ) : RecyclerView.Adapter<EventViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EventViewHolder {
         val layoutInflater= LayoutInflater.from(parent.context)
         return EventViewHolder(layoutInflater.inflate(R.layout.event_item,parent,false))
@@ -14,7 +14,7 @@ class EventAdapter(private val eventList:List<EventItem>) : RecyclerView.Adapter
 
     override fun onBindViewHolder(holder: EventViewHolder, position: Int) {
         val item= eventList[position]
-        holder.render(item)
+        holder.render(item, onClickListener)
     }
 
     override fun getItemCount(): Int {

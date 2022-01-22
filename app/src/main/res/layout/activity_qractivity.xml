@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/negro" />
+        app:srcCompat="@drawable/hd_wallpaper_rainbow_lgbt_lgbtq_subtle_subtle_gay" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
