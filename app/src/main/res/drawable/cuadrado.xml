@@ -14,9 +14,13 @@
 
     <stroke
         android:width="10px"
-        android:color="@color/teal_200"
+        android:color="@color/rosa"
         >
 
     </stroke>
-
+    <gradient
+        android:endColor="#EA6C6C"
+        android:centerColor="#3BA175"
+        android:startColor="#5D87C5"
+        android:angle="90"/>
 </shape>

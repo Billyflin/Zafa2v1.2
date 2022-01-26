@@ -15,12 +15,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.501"
         app:srcCompat="@drawable/hd_wallpaper_rainbow_lgbt_lgbtq_subtle_subtle_gay" />
+
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="106dp"
+        android:layout_height="106dp"
         android:layout_marginBottom="90dp"
         android:background="@drawable/_7453"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -29,11 +29,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="382dp"
-        android:layout_height="144dp"
+        android:layout_width="345dp"
+        android:layout_height="134dp"
         android:autoSizeTextType="uniform"
         android:fontFamily="@font/advent_pro"
-
         android:text="Para obtener una experiencia personalizada por favor ingresa su nombre y apellido, ademas de un apodo"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
@@ -45,14 +44,14 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="350dp"
+        android:layout_width="wrap_content"
         android:layout_height="323dp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.737"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583">
 
 
         <TableRow
@@ -61,79 +60,75 @@
             tools:layout_editor_absoluteX="180dp"
             tools:layout_editor_absoluteY="85dp">
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="300dp"
-                android:layout_height="96dp"
+            <EditText
+                android:id="@+id/labelUser"
+                android:layout_width="297dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cuadrado"
+                android:ems="10"
                 android:fontFamily="@font/advent_pro"
+                android:gravity="center"
                 android:hint="Nombre"
+                android:inputType="textPersonName"
                 android:orientation="vertical"
                 android:textColor="@color/white"
-                android:textColorHint="@color/teal_200"
-                app:boxCornerRadiusTopEnd="10dp"
-                app:boxCornerRadiusTopStart="10dp"
-                app:helperTextTextColor="@color/plomo"
-                app:hintTextColor="@color/rosa">
+                android:textColorHint="@color/black"
+                android:textSize="21sp"
+                android:visibility="visible"
+                app:cornerRadius="25dp" />
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-
-            </com.google.android.material.textfield.TextInputLayout>
         </TableRow>
 
         <TableRow
             android:layout_width="301dp"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
 
-            <com.google.android.material.textfield.TextInputLayout
+            <EditText
+                android:id="@+id/labelUser2"
+                android:layout_width="297dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cuadrado"
+                android:ems="10"
 
-                android:layout_width="300dp"
-                android:layout_height="96dp"
                 android:fontFamily="@font/advent_pro"
+                android:gravity="center"
                 android:hint="Apellido"
+                android:inputType="textPersonName"
                 android:orientation="vertical"
                 android:textColor="@color/white"
-                android:textColorHint="@color/teal_200"
-                app:boxCornerRadiusTopEnd="10dp"
-                app:boxCornerRadiusTopStart="10dp"
-                app:helperTextTextColor="@color/plomo"
-                app:hintTextColor="@color/rosa">
+                android:textColorHint="@color/black"
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                android:textSize="21sp" />
 
 
-            </com.google.android.material.textfield.TextInputLayout>
         </TableRow>
 
         <TableRow
             android:layout_width="300dp"
-            android:layout_height="match_parent">
+            android:layout_height="77dp">
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="300dp"
-                android:layout_height="96dp"
+            <EditText
+                android:id="@+id/labelUser3"
+                android:layout_width="297dp"
+
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/cuadrado"
+                android:ems="10"
+
                 android:fontFamily="@font/advent_pro"
+                android:gravity="center"
                 android:hint="Apodo"
+                android:inputType="textPersonName"
+
                 android:orientation="vertical"
                 android:textColor="@color/white"
-                android:textColorHint="@color/rosa"
-                app:boxCornerRadiusTopEnd="10dp"
-                app:boxCornerRadiusTopStart="10dp"
-                app:helperTextTextColor="@color/plomo"
-                app:hintTextColor="@color/teal_200">
+                android:textColorHint="@color/black"
+                android:textSize="21sp" />
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-
-            </com.google.android.material.textfield.TextInputLayout>
         </TableRow>
 
     </TableLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

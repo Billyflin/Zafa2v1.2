@@ -25,7 +25,7 @@
         android:layout_marginBottom="80dp"
         android:fontFamily="@font/advent_pro"
         android:hint="Email"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
 
@@ -50,7 +50,7 @@
         android:autoSizeTextType="uniform"
         android:fontFamily="@font/advent_pro"
         android:text="Ingresa tu Email para luego poder tener un metodo de iniciar sesión "
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorLink="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
         app:layout_constraintEnd_toEndOf="parent"

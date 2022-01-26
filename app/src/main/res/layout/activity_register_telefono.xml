@@ -60,7 +60,7 @@
         android:layout_marginBottom="60dp"
         android:fontFamily="@font/advent_pro"
         android:hint="Numero"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         app:boxCornerRadiusTopEnd="10dp"
         app:boxCornerRadiusTopStart="10dp"
